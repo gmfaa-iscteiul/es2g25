@@ -14,8 +14,8 @@ public class Hello {
 	 * @return the integer solution.
 	 */
 	
-	public static int soma(int , int y) {
-		return x + y;
+	public static int dif(int x, int y) {
+		return x - y;
 	}
 	
 	public static int product(int x, int y) {
