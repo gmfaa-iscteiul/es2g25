@@ -1,4 +1,4 @@
-def dockeruser = "jrcos"
+def dockeruser = "dockeruser"
 def imagename = "ubuntu:16"
 def container = "apache2"
 node {
