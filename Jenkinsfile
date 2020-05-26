@@ -1,4 +1,4 @@
-def dockeruser = "gmfaaiscteiul"
+def dockeruser = "mepsa"
 def imagename = "ubuntu:16"
 def container = "apache2"
 node {
