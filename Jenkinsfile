@@ -1,11 +1,11 @@
-def dockeruser = "mepsa"
+def dockeruser = "gmfaaiscteiul"
 def imagename = "ubuntu:16"
 def container = "apache2"
 node {
    echo 'Building Apache Docker Image'
 
 stage('Git Checkout') {
-    git 'https://github.com/gmfaa-iscteiul/es2g25.git'
+    git 'https://github.com/jvpreis/ESII'
     }
     
 stage('Build Docker Imagae'){
